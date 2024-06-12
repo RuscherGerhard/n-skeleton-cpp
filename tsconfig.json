@@ -6,7 +6,8 @@
     "outDir": "application",
     "allowJs": true,
     "target": "ES2017",
-    "skipLibCheck": true    
+    "skipLibCheck": true,
+    "esModuleInterop": false
   },
   "include":["./src/**/*"],
   "exclude": [
