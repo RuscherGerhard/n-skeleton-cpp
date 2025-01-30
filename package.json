@@ -7,8 +7,7 @@
   "scripts": {
     "build": "rimraf ./application && tsc --pretty",
     "test": "nyc mocha",
-    "test-coverage": "npm install --only=dev && nyc mocha",
-    "gyp:build": "node-gyp rebuild"
+    "test-coverage": "npm install --only=dev && nyc mocha"
   },
   "keywords": [],
   "author": "Gerhard Ruscher",
